@@ -3,8 +3,8 @@ import 'dotenv/config';
 import cors from 'cors';
 import helmet from 'helmet';
 import { connectMongoDB } from './db/connectMongoDB.js';
-import { errorHandler } from './middleware/errorHundler.js';
-import { notFoundHandler } from './middleware/notFoundHundler.js';
+import { errorHandler } from './middleware/errorHandler.js';
+import { notFoundHandler } from './middleware/notFoundHandler.js';
 import { logger } from './middleware/logger.js';
 import notesRouter from './routes/notesRoutes.js';
 
